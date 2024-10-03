@@ -1,0 +1,25 @@
+=====RELATORIO DE VENDAS=====
+ 
+DATA DO SISTEMA: 2024/10/02 15:27
+=============================
+PRIMEIRO REGISTRO DE VENDA:
+54,panela,6,33.90,01/01/2024
+ 
+ULTIMO REGISTRO DO SISTEMA:
+78,frigideira,4,60.00,09/01/2024
+ 
+QUANTIDADE TOTAL DE ITENS DIFERENTES VENDIDOS:8 
+ 
+10 PRIMEIRAS LINHAS:
+id,produto,quantidade,preço,data
+54,panela,6,33.90,01/01/2024
+43,fogao,2,80.00,02/01/2024
+22,Micro-ondas,1,100.00,03/01/2024
+13,airfryer,3,5.00,04/01/2024
+56,geladeira,1,15.00,05/01/2024
+78,panela,2,80.00,06/01/2024
+12,talheres,6,48.00,07/01/2024
+1,mesa,4,150.00,08/01/2024
+78,frigideira,4,60.00,09/01/2024
+ 
+============================
