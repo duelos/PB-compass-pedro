@@ -17,8 +17,8 @@ touch /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/rel
 
 DATAARQ=$(date +%Y%m%d) #DATA DO ARQUIVO
 DATA=$(date "+%Y/%m/%d %H:%M") #DATA DO SISTEMA
-PRIMEIRORE=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|head -2|tail -1) #PRIMEIRO REGISTRO DE VENDA
-ULTIMORE=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|tail -1) #ULTIMO REGISTRO DE VENDA
+PRIMEIRORE=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|cut -d "," -f5|head -2|tail -1) #PRIMEIRO REGISTRO DE VENDA
+ULTIMORE=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|cut -d "," -f5|tail -1) #ULTIMO REGISTRO DE VENDA
 QNTITENS=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|cut -d "," -f2|sed 1d|sort|uniq|wc -l) #QUANTIDADE DE PRODUTOS DIFERENTES
 DEZPRIMEIRAS=$(cat /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv|head -10)
 

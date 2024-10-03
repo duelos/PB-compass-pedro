@@ -1,3 +1,16 @@
+=====RELATORIO DE VENDAS=====
+ 
+DATA DO SISTEMA: 2024/10/03 15:27
+=============================
+PRIMEIRO REGISTRO DE VENDA:
+04/01/2024
+ 
+ULTIMO REGISTRO DO SISTEMA:
+25/01/2024
+ 
+QUANTIDADE TOTAL DE ITENS DIFERENTES VENDIDOS:9 
+ 
+10 PRIMEIRAS LINHAS:
 id,produto,quantidade,preço,data
 77,teclado,3,300,04/01/2024
 56,mouse,2,158.00,06/01/2024
@@ -8,3 +21,5 @@ id,produto,quantidade,preço,data
 55,microfone,1,469.00,11/01/2024
 58,camera,3,372.00,23/01/2024
 34,mesa,2,900.00,25/01/2024
+ 
+============================
