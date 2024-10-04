@@ -9,6 +9,14 @@ Essa sprint em específico, não possui exercicios
 
 # Evidências
 [Evidências](Evidências)
-### Scripts
+## Scripts
 ![Script_1](Evidências/processamento_de_dados.png)
 ![Script_2](Evidências/consolidador_de_dados.png)
+
+## Relatorios
+![Relatorio_1](Evidências/relatorio_1.png)
+![Relatorio_2](Evidências/relatorio_2.png)
+![Relatorio_3](Evidências/relatorio_3.png)
+![Relatorio_4](Evidências/relatorio_4.png)
+![Relatorio_final](Evidências/relatorio_final_1.png)
+![Relatorio_final](Evidências/relatorio_final_2.png)
