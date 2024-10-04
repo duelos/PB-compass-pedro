@@ -20,3 +20,6 @@ Essa sprint em específico, não possui exercicios
 ![Relatorio_4](Evidências/relatorio_4.png)
 ![Relatorio_final](Evidências/relatorio_final_1.png)
 ![Relatorio_final](Evidências/relatorio_final_2.png)
+
+# Certificados
+[Certificados](Certificados)
