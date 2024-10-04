@@ -1,7 +1,7 @@
 # Olá, meu nome é Pedro Henrique!
 
 ## Sobre mim:
-![minha foto](Eu.png)
+![minha foto](minha_imagem.jpeg)
 
 * Localização: Garanhuns, Pernambuco.
 * Instituição: IFPE Campus Garanhuns.
