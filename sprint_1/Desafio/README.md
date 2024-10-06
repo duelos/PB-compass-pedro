@@ -38,7 +38,7 @@ A segunda etapa é referente ao relatório.
 
 * A variável "DEZPRIMEIRAS" faz o cat no arquivo e utiliza head -10, buscando as 10 primeiras linhas do arquivo.
 
-#### echos
+#### ECHOS
 
 * Essa parte é bem simples, estou utilizando o comando echo para mostrar uma linha de texto e exibir as váriaveis, todos os echos estão com as saídas apontadas para o arquivo "relatorio-DATAARQ", esta parte é mais organização.
 
@@ -57,7 +57,7 @@ A segunda etapa é referente ao relatório.
 
 [Agenda](../Evidências/crontab.png)
 
-* O agendamento do crontab exige 5 asteriscos, o primeiro é referente aos minutos, o segundo às horas, o terceiro é o dia do mês, o quarto ao mês e o quinto ao dia da semana. após isso você coloca o caminho para o seu script.
+* O agendamento do crontab exige 5 asteriscos, o primeiro é referente aos minutos, o segundo às horas, o terceiro é o dia do mês, o quarto ao mês e o quinto ao dia da semana. Após isso você coloca o caminho do seu script para ele ser executado.
 
 ## Segundo script:
 
@@ -70,6 +70,7 @@ A segunda etapa é referente ao relatório.
 * Uso o cat para abrir todos os arquivos do diretório backup que terminam em .txt e aponto saída disso para o arquivo que criamos.
 
 [relatorio_final](../Evidências/relatorio_final_1.png)
+
 [relatorio_final](../Evidências/relatorio_final_2.png)
 
 Tendo isso como resultado.
