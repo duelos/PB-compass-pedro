@@ -3,6 +3,9 @@
 O desafio consiste em criar 2 scripts, um deles irá criar uma árvore de diretórios e arquivos, coletar dados de uma planilha de vendas e gerar relatórios, o outro, irá consolidar todos os relatórios gerados.
 
 # ETAPAS
+
+## Primeiro script:
+
 [Etapa_1](../Evidências/etapa_1.png)
 
 ### Nessa primeira etapa:
@@ -49,6 +52,30 @@ A segunda etapa é referente ao relatório.
 * removi o arquivo csv do diretório backup.
 
 * removi o arquivo csv do diretõrio vendas.
+
+## Agendamento no crontab:
+
+[Agenda](../Evidências/crontab.png)
+
+* O agendamento do crontab exige 5 asteriscos, o primeiro é referente aos minutos, o segundo às horas, o terceiro é o dia do mês, o quarto ao mês e o quinto ao dia da semana. após isso você coloca o caminho para o seu script.
+
+## Segundo script:
+
+[Segundo_script](../Evidências/consolidador.png)
+
+* Utilizo o comando touch para criar o arquivo "relatorio_final.txt"
+
+* O echo para mostrar no arquivo
+
+* Uso o cat para abrir todos os arquivos do diretório backup que terminam em .txt e aponto saída disso para o arquivo que criamos.
+
+[relatorio_final](../Evidências/relatorio_final_1.png)
+[relatorio_final](../Evidências/relatorio_final_2.png)
+
+Tendo isso como resultado.
+
+
+
 
 
 
