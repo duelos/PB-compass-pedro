@@ -5,6 +5,8 @@ Nessa Sprint aprendi sobre comandos Linux, combiná-los e fazer comandos sequenc
 # Exercicios
 [Exercicios](Exercícios)
 
+# Desafio
+[Desafio](Desafio)
 
 # Evidências
 [Evidências](Evidências)
