@@ -1,6 +1,10 @@
 #!/bin/bash
+###########################################################################################
+# AUTOR: PEDRO HENRIQUE FREITAS SILVA                                                     #
+###########################################################################################
 
 DATA=$(date +%Y%m%d)
+##ETAPA 1
 
 mkdir /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas
 
@@ -13,6 +17,7 @@ cp /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/dados_de_vendas.csv 
 mv /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/dados-$DATA.csv /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATA.csv
 touch /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/relatorio-$DATA.txt
 
+##ETAPA 2
 #RELATORIO
 
 DATAARQ=$(date +%Y%m%d) #DATA DO ARQUIVO
@@ -38,6 +43,8 @@ echo "10 PRIMEIRAS LINHAS:" >> /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ec
 echo "$DEZPRIMEIRAS" >> /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/relatorio-$DATAARQ.txt
 echo " " >> /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/relatorio-$DATAARQ.txt
 echo "============================" >> /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/relatorio-$DATAARQ.txt
+
+## ETAPA 3
 zip /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.zip /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv
 rm /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/backup/backup-dados-$DATAARQ.csv
 rm /home/pedro/pb-pedro-henrique/sprint_1/Desafio/ecommerce/vendas/dados_de_vendas.csv
