@@ -5,7 +5,6 @@ Nessa Sprint aprendi sobre comandos Linux, combiná-los e fazer comandos sequenc
 # Exercicios
 [Exercicios](Exercícios)
 
-Essa sprint em específico, não possui exercicios
 
 # Evidências
 [Evidências](Evidências)
