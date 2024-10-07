@@ -98,3 +98,28 @@ id,produto,quantidade,preço,data
 99,televisão,18,3299.00,19/01/2024
  
 ============================
+=====RELATORIO DE VENDAS=====
+ 
+DATA DO SISTEMA: 2024/10/07 18:04
+=============================
+PRIMEIRO REGISTRO DE VENDA:
+10/01/2024
+ 
+ULTIMO REGISTRO DO SISTEMA:
+19/01/2024
+ 
+QUANTIDADE TOTAL DE ITENS DIFERENTES VENDIDOS:9 
+ 
+10 PRIMEIRAS LINHAS:
+id,produto,quantidade,preço,data
+1,smartphone,2,3200.00,10/01/2024
+22,notebook,5,1899.00,12/01/2024
+33,fone de ouvido,4,2999.50,13/01/2024
+44,tablet,10,799.59,14/01/2024
+55,impressora,20,299.00,15/01/2024
+66,camera digital,8,2499.00,16/01/2024
+77,aspirador de pó,5,159.00,17/01/2024
+88,cafeteira,25,100.00,18/01/2024
+99,televisão,18,3299.00,19/01/2024
+ 
+============================
