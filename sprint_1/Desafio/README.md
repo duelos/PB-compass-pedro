@@ -63,11 +63,7 @@ A segunda etapa é referente ao relatório.
 
 [Segundo_script](../Evidências/consolidador.png)
 
-* Utilizo o comando touch para criar o arquivo "relatorio_final.txt"
-
-* O echo para mostrar no arquivo
-
-* Uso o cat para abrir todos os arquivos do diretório backup que terminam em .txt e aponto saída disso para o arquivo que criamos.
+* Uso o cat para abrir todos os arquivos do diretório backup que terminam em .txt e aponto saída disso para o arquivo relatorio_final.txt que criamos.
 
 [relatorio_final](../Evidências/relatorio_final_1.png)
 
