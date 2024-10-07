@@ -15,7 +15,7 @@ Nessa Sprint aprendi sobre comandos Linux, combiná-los e fazer comandos sequenc
 
 [Script_1](Evidências/etapa_2.png)
 
-[Script_2](Evidências/consolidador_de_dados.png)
+[Script_2](Evidências/consolidador.png)
 
 ## Relatorios
 [Relatorio_1](Evidências/relatorio_1.png)
