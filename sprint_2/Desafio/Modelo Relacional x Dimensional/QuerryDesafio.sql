@@ -60,17 +60,17 @@ insert into Clientes (ClienteID, NomeCliente, Cidade, Estado, País) VALUES
 (23, 'Cliente vinte e tres', 'Eusébio', 'Ceará', 'Brasil'),
 (26, 'Cliente vinte e seis', 'Campo Grande', 'Mato Grosso do Sul', 'Brasil');
 
-insert into Veículos (CarroID, KmCarro, Chassi, Marca, Modelo, Ano) VALUES
-(1, 8500, 'AAAKNS8JS76S39', 'Toyota', 'Corolla XEI', 2023),
-(2, 40000, 'AKIUNS1JS76S39', 'Nissan', 'Versa', 2019),
-(3, 152800, 'DKSHKNS8JS76S39', 'VW', 'Fusca 78', 1978),
-(4, 58000, 'LLLUNS1JS76S39', 'Nissan', 'Versa', 2020),
-(5, 78000, 'MSLUNS1JS76S39', 'Nissan', 'Frontier', 2022),
-(6, 21800, 'SKIUNS8JS76S39', 'Nissan', 'Versa', 2019),
-(7, 212800, 'SSIUNS8JS76S39', 'Fiat', 'Fiat 147', 1996),
-(10, 211800, 'LKIUNS8JS76S39', 'Fiat', 'Fiat 147', 1996),
-(98, 29450, 'AKJHKN98JY76539', 'Fiat', 'Fiat Uno', 2000),
-(99, 21700, 'IKJHKN98JY76539', 'Fiat', 'Fiat Palio', 2010);
+insert into Veículos (CarroID, CombustivelID, KmCarro, Chassi, Marca, Modelo, Ano) VALUES
+(1, 3,  8500, 'AAAKNS8JS76S39', 'Toyota', 'Corolla XEI', 2023),
+(2, 2, 40000, 'AKIUNS1JS76S39', 'Nissan', 'Versa', 2019),
+(3, 1, 152800, 'DKSHKNS8JS76S39', 'VW', 'Fusca 78', 1978),
+(4, 2, 58000, 'LLLUNS1JS76S39', 'Nissan', 'Versa', 2020),
+(5, 4, 78000, 'MSLUNS1JS76S39', 'Nissan', 'Frontier', 2022),
+(6, 1, 21800, 'SKIUNS8JS76S39', 'Nissan', 'Versa', 2019),
+(7, 1, 212800, 'SSIUNS8JS76S39', 'Fiat', 'Fiat 147', 1996),
+(10, 1, 211800, 'LKIUNS8JS76S39', 'Fiat', 'Fiat 147', 1996),
+(98, 2, 29450, 'AKJHKN98JY76539', 'Fiat', 'Fiat Uno', 2000),
+(99, 5, 21700, 'IKJHKN98JY76539', 'Fiat', 'Fiat Palio', 2010);
 
 insert into Combustivel (CombustivelID, Nome) VALUES
 (1,'Gasolina'),
