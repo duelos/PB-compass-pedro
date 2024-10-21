@@ -5,9 +5,9 @@ O desafio consiste em aplicar regras de normalização em um banco de dados que 
 # Etapas
 
 ## Criando Tabelas
-* O começo da normalização vem com a separação de tabelas pelas entidades e os valores que lhe dizem respeito, então criei cada tabela e coloquei dentro delas as colunas que os atribuem.
+* O começo da normalização vem com a separação de tabelas pelas entidades e os valores que lhe dizem respeito, então criei cada tabela e coloquei dentro delas as colunas que as atribuem.
 * Colocando sempre o tipo de coluna, utilizei NOT NULL para caso for implementado alguma linha na tabela, que não permita valores nulos
-* Para cada tabela eu coloquei uma chave primaria com o ID no nome
+* Para cada tabela eu coloquei uma chave primaria com o ID no nome e os tornei únicos para evitar que se repitam registros
 * No que diz respeito aos relacionamentos, eu relacionei Carro com Combustivel, para que fique registrado qual o combustível que cada carro usa, e a tabela Locacoes possui relacionamento com todas as outras, fiz a ligação delas referenciando as chaves estrangeiras com essa tabela utilizando o comando 'FOREIGN KEY'.
 [Etapa_1](../Evidências/Etapa_1.png)
 
@@ -17,7 +17,7 @@ Inseri os dados das tabelas dentro de cada tabela com o 'insert into'.
 [Etapa_2](../Evidências/Etapa_2.png)
 
 ## Criando views para montar o modelo dimensional
-Como foi aconselhado, fiz o uso de 'create view' para criar visualizações e facilitar o processo de fazer o modelo dimensional.
+Como foi aconselhado, fiz o uso de 'create view' para criar visualizações e facilitar o processo de fazer o modelo dimensional. Onde no nosso caso, a tabela fato seria a tabela "Locacoes" e as dimensões são as tabelas "Cliente", "Vendedor", "Veiculo" e "Combustivel"
 [Etapa_3](../Evidências/Etapa_3.png)
 
 ## Resultados
