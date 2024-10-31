@@ -1,0 +1,2 @@
+apresente a media de receita de bilheteria bruta dos principais filmes, considerando todos os autores: 
+A média de receita bruta dos principais filmes é: 428.69
