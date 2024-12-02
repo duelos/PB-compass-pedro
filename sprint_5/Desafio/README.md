@@ -7,6 +7,7 @@ Escolher o conjunto de dados, eu escolhi esse:
 
 # Etapa 2
 Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
+
 ![script](./Entregáveis/script_python.py)
 ### imports
 * Utilizo _boto3_ que é biblioteca usada para interagir com os serviços da AWS, como S3.
@@ -29,6 +30,7 @@ Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
 
 # Etapa 3
 No outro script python devemos utilizar a biblioteca pandas para manipular os dados do arquivo que está no S3.
+
 ![script](./Entregáveis/script_python2.py)
 
 
