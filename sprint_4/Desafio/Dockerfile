@@ -1,9 +1,3 @@
-FROM python:3.12-slim
+AKIAXKPUZLAK4WLQHX2U
 
-WORKDIR /app
-
-COPY ./carguru.py /app/carguru.py
-
-CMD ["python", "carguru.py"]
-
-
+PEwv/ons0ZGtOzalMtCAuZ6gWoxz1leaNO7eEGRN
