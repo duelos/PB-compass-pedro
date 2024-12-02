@@ -14,7 +14,7 @@ __Observações__: Variáveis ​​X e Y nas Tabelas da ANA: No contexto da Ag�
 Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
 #### Tive problemas com o linux e o ubuntu, então eu precisei criar um ambiente virtual para conseguir utilizar a biblioteca, o mesmo ambiente se encontra em um diretorio dessa sprint.
 
-![script](./Entregáveis/script_python.py)
+[script](./Entregáveis/script_python.py)
 ### imports
 * Utilizo _boto3_ que é biblioteca usada para interagir com os serviços da AWS, como S3.
 * Uso o __botocore.exceptions__ para tratar de exceções específicas do boto3 de erros relacionados a credenciais, conexão e outros problemas.
@@ -37,7 +37,7 @@ Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
 # Etapa 3
 No outro script python devemos utilizar a biblioteca pandas para manipular os dados do arquivo que está no S3.
 
-![script](./Entregáveis/script_python2.py)
+[script](./Entregáveis/script_python2.py)
 
 ### Para enviar pro Bucket
 __utilizei para salvar o DataFrame em Memória:__
