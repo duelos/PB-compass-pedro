@@ -3,10 +3,16 @@ O desafio consiste em aplicar nossos conhecimentos em nuvem AWS e manipular arqu
 
 # Etapa 1 
 Escolher o conjunto de dados, eu escolhi esse:
+
 [Tabela](./Entregáveis/tabela_desafio.csv)
+
+__Este é um conjunto de dados da Agência Nacional de Águas e Saneamento Básico, onde registra o ponto de operação do ano de 2004.__
+
+__Observações__: Variáveis ​​X e Y nas Tabelas da ANA: No contexto da Agência Nacional de Águas e Saneamento Básico (ANA), X e Y são provavelmente variáveis ​​usadas para representar dados ou parâmetros específicos em tabelas relacionadas à água e saneamento. Sem informações mais específicas, é difícil determinar o significado exato de X e Y. No entanto, elas podem representar várias métricas, como indicadores de qualidade da água, taxas de fluxo ou outros pontos de dados relevantes usados ​​pela ANA para monitorar e regular os recursos hídricos. O mesmo Ocorre na Coluna 'AMBIENTE' onde a agência não deixa claro o real sentido, porém em fóruns alguns dizem que é relativo a qualidade do saneamento, onde 1 seria: Boa qualidade ou Mediana e 2 seria: Péssima Qualidade ou Pior que a média.
 
 # Etapa 2
 Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
+#### Tive problemas com o linux e o ubuntu, então eu precisei criar um ambiente virtual para conseguir utilizar a biblioteca, o mesmo ambiente se encontra em um diretorio dessa sprint.
 
 ![script](./Entregáveis/script_python.py)
 ### imports
@@ -32,6 +38,20 @@ Carregar o arquivo para um bucket novo utilizando a biblioteca boto3.
 No outro script python devemos utilizar a biblioteca pandas para manipular os dados do arquivo que está no S3.
 
 ![script](./Entregáveis/script_python2.py)
+
+### Para enviar pro Bucket
+__utilizei para salvar o DataFrame em Memória:__
+
+* __StringIO__ para salvar o DataFrame como CSV diretamente em memória, evitando criar um arquivo temporário no disco.
+* __Enviar ao S3__: put_object é usado para enviar o conteúdo do CSV (armazenado em csv_buffer) ao S3.
+* O parâmetro Key recebe o nome do novo arquivo (tabela_modificada_desafio.csv) no bucket.
+
+# Resultados
+![resultado_query](../Evidências/Resultado-query2.png)
+
+![resultado_query](../Evidências/Resultado2-query2.png)
+
+![arquivo_bucket](../Evidências/arquivo_modificado.png)
 
 
 
