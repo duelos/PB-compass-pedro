@@ -49,3 +49,13 @@ print('-'*20)
 df['CORPO_DAGUA'] = df['CORPO_DAGUA'].str.upper()
 print("\nFunção de string aplicada:")
 print(df[['CORPO_DAGUA']])
+
+# Convertendo e enviando para o bucket
+
+s3_client = boto3.client('s3', region_name='us-east-1') 
+bucket_name = 'bucketdesafio-pedrosilva'
+object_key = 'tabela_desafio.csv'
+
+response = s3_client.get_object(Bucket=bucket_name, Key=object_key)
+csv_content = response['Body'].read().decode('utf-8')
+df = pd.read_csv(StringIO(csv_content))
