@@ -1,0 +1,15 @@
+# Arquivos e diretórios do ambiente virtual
+*.pyc
+__pycache__/
+*.log
+*.env
+*.venv/
+meu_ambiente/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
