@@ -17,6 +17,7 @@ O desafio dessa sprint juntou várias ferramentas que já utilizamos, python, do
 * Definição de caminhos absolutos para os arquivos CSV que o script irá manipular, detalhe, /app/dados é o diretorio dentro do container.
 
 *arquivo1 = "/app/dados/movies.csv"*
+
 *arquivo2 = "/app/dados/series.csv"*
 
 * função ler_csv
@@ -30,7 +31,9 @@ O desafio dessa sprint juntou várias ferramentas que já utilizamos, python, do
 * O loop for _ in leitor percorre todas as linhas do arquivo sem fazer nada com elas (usando _ como variável descartável).
 
 *ler_csv(arquivo1)*
+
 *ler_csv(arquivo2)*
+
 *print("Arquivos lidos com sucesso!")*
 
 * Chama a função ler_csv para os dois arquivos declarados.
@@ -51,8 +54,11 @@ O desafio dessa sprint juntou várias ferramentas que já utilizamos, python, do
 * upload_file(): Faz o upload do arquivo especificado para o bucket S3.
 
 *Parâmetros:*
+
 *arquivo1: Caminho do arquivo no sistema local.*
+
 *bucket_name: Nome do bucket no S3.*
+
 *object_name: Caminho e nome do arquivo no S3.*
 
 # Etapa 2
