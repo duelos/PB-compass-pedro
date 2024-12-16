@@ -1,0 +1,9 @@
+version: "3.12"
+services:
+  desafio-s3:
+    image: enviar-s3
+    container_name: desafio-s3-container
+    volumes:
+      - /home/pedro/Downloads/Filmes_e_Series:/app/dados
+      - /home/pedro/.aws:/root/.aws
+    restart: 'no'
