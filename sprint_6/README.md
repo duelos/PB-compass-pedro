@@ -17,4 +17,4 @@ Nessa sprint aprendi conceitos aprofundados de analitycs e as ferramentas da AWS
 [Evidencias](./Evidências/)
 
 # Certificados
-
+[Certificados](./Certificados/)

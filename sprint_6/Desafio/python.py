@@ -24,7 +24,7 @@ csv_file = '/home/pedro/Downloads/Filmes_e_Series/movies.csv'
 object_name = "Raw/Local/CSV/Movies/2024/12/13/movies.csv"  
 
 csv_file2 = '/home/pedro/Downloads/Filmes_e_Series/series.csv' 
-object_name2 = "Raw/Local/CSV/Movies/2024/12/13/series.csv"  
+object_name2 = "Raw/Local/CSV/Series/2024/12/13/series.csv"  
 
 s3 = boto3.client(
     's3'
