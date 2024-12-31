@@ -24,7 +24,7 @@ Resultado:
 ![Evidencia_glue](./Exercícios/glue/evidencia3_glue.png)
 
 Script utilizado:
-![Evidencia_glue](./Exercícios/glue/script.py)
+[Evidencia_glue](./Exercícios/glue/script.py)
 
 # Desafio
 [Desafio](./Desafio/)
