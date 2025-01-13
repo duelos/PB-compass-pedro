@@ -12,7 +12,7 @@ Essa sprint, assim como a passada, foi um mix de tudo que vimos, utilizei python
 
 [csv](./Exercícios/animais.csv)
 
-[txt](./Exercícios/nomes_aleatorios.txt)
+foi recomendado que o txt nao fosse enviado.
 
 *Script Spark*
 
