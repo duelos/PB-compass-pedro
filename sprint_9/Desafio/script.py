@@ -12,7 +12,7 @@ input_json_filmes = "s3://bucket-desafio-pedrosilva/Trusted/TMDB/Parquet/2025/01
 output_s3_path = "s3://bucket-desafio-pedrosilva/Refined/"
 
 filmes_df = spark.read.parquet(input_filmes_parquet)
-json_filmes_df = spark.read.json(input_json_filmes)
+json_filmes_df = spark.read.parquet(input_json_filmes)
 
 filmes_df = filmes_df.withColumnRenamed("id", "imdb_id")
 
@@ -78,5 +78,3 @@ dim_filme_df.write.mode("overwrite").parquet(f"{output_s3_path}DimFilme/")
 dim_genero_df.write.mode("overwrite").parquet(f"{output_s3_path}DimGenero/")
 dim_tempo_df.write.mode("overwrite").parquet(f"{output_s3_path}DimTempo/")
 fato_filmes_df.write.mode("overwrite").parquet(f"{output_s3_path}FatoFilmes/")
-
-print("ETL concluído e tabelas salvas no S3!")
