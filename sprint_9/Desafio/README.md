@@ -5,7 +5,9 @@ Neste código, eu implementei um processo ETL utilizando PySpark e o contexto do
 ### Configuração Inicial
 
 **from pyspark.context import SparkContext**
+
 **from awsglue.context import GlueContext**
+
 **from pyspark.sql import functions as F**
 
 1. Importei as bibliotecas necessárias para configurar o ambiente do Spark e manipular os dados.
@@ -13,23 +15,29 @@ Neste código, eu implementei um processo ETL utilizando PySpark e o contexto do
 2. Criei o SparkContext e o GlueContext:
 
 **sc: Gerencia as configurações do Spark.**
+
 **glueContext: Integrar o Spark com o Glue.**
+
 **spark: Sessão do Spark usada para trabalhar com DataFrames.**
 
 3. Definição dos Caminhos no S3
 
 **input_filmes_parquet = "s3://bucket-desafio-pedrosilva/Trusted/Movies/Parquet/2025/01/09/filmes.parquet"**
+
 **input_json_filmes = "s3://bucket-desafio-pedrosilva/Trusted/TMDB/Parquet/2025/01/09/tmdb_json.parquet"**
+
 **output_s3_path = "s3://bucket-desafio-pedrosilva/Refined/"**
 
 4. Defini os caminhos de entrada e saída no S3:
 
 **filmes.parquet: Contém informações básicas sobre filmes e referencia o csv.**
+
 **tmdb_json.parquet: Contém informações detalhadas sobre filmes e referencia o JSON.**
 
 3. Carregamento dos Dados
 
 **filmes_df = spark.read.parquet(input_filmes_parquet)**
+
 **json_filmes_df = spark.read.json(input_json_filmes)**
 
 Usei spark.read.parquet para carregar o arquivo Parquet.
