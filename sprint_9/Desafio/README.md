@@ -89,6 +89,7 @@ ano, mes, dia e dia_da_semana.
 * Criei a tabela fato final, com métricas numéricas e chaves estrangeiras para as dimensões.
 
 8. Salvando as Tabelas no S3
+
 **dim_filme_df.write.mode("overwrite").parquet(f"{output_s3_path}DimFilme/")**
 
 **dim_genero_df.write.mode("overwrite").parquet(f"{output_s3_path}DimGenero/")**
